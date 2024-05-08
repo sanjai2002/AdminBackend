@@ -12,11 +12,11 @@ namespace LXP.Api.Controllers
         {
             _learnerService = learnerService;
         }
-        [HttpGet]
-        public ActionResult GetAllLearners()
-        {
-            var learners = _learnerService.GetAll();
-            return Ok(learners);
-        }
+        //[HttpGet]
+        //public ActionResult GetAllLearners()
+        //{
+        //    var learners = _learnerService.GetAll();
+        //    return Ok(learners);
+        //}
     }
 }

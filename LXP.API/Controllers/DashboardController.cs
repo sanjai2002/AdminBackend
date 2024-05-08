@@ -73,5 +73,17 @@ namespace LXP.Api.Controllers
             var total_course_created = _dashboardService.GetCourseCreatedList();
             return Ok(CreateSuccessResponse(total_course_created));
         }
+
+        ///<summary>
+        ///getting total number of course creation according to year
+        ///</summary>
+        ///<response code="200">Success</response>
+        ///<response code="500">Internal server Error</response>
+        //[HttpGet]
+        //public ActionResult GetMostEnrolledCourse()
+        //{
+        //    var total_course_created = _dashboardService.GetMostEnrolledCourse();
+        //    return Ok(CreateSuccessResponse(total_course_created));
+        //}
     }
 }

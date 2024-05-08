@@ -1,6 +1,7 @@
 ﻿using LXP.Common;
 using LXP.Common.ViewModels;
 using LXP.Data.IRepository;
+using System.Data.Entity;
 
 namespace LXP.Data.Repository
 {
@@ -72,6 +73,19 @@ namespace LXP.Data.Repository
                     CourseId = x.CourseId,
                     Title = x.Title,
                     CreatedAt = x.CreatedAt,
+                })
+                .ToList();
+        }
+
+        public IEnumerable<DashboardEnrollmentViewModel> GetMoreEnrolledCourse()
+        {
+            return _lXPDbContext.Enrollments
+                .Select(x => new DashboardEnrollmentViewModel
+                {
+                    EnrollmentId = x.EnrollmentId,
+                    CourseId = x.CourseId,
+                    LearnerId = x.LearnerId,
+                    EnrollmentDate = x.EnrollmentDate,
                 })
                 .ToList();
         }
