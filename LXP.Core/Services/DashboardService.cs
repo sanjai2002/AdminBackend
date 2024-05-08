@@ -57,6 +57,12 @@ namespace LXP.Core.Services
             return output.ToArray();
         }
 
+        public string GetMostEnrolledCourse()
+        {
+            var course = _dashboardRepository.GetMoreEnrolledCourse();
+            return "hi";
+        }
+
         //IEnumerable<DashboardEnrollmentViewModel> IDashboardService.GetEnrollments()
         //{
         //    var result = _dashboardRepository.GetTotalEnrollments();

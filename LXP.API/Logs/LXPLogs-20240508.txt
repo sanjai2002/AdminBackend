@@ -44,3 +44,223 @@ FROM `enrollments` AS `e`
 2024-05-08 09:22:56.410 +05:30 [INF] Executed action LXP.Api.Controllers.DashboardController.GetEnrollmentMonth (LXP.Api) in 5417.6025ms
 2024-05-08 09:22:56.414 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.DashboardController.GetEnrollmentMonth (LXP.Api)'
 2024-05-08 09:22:56.440 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetEnrollmentMonth - 200 null application/json; charset=utf-8 5570.3661ms
+2024-05-08 14:24:47.238 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-08 14:24:47.271 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-08 14:24:47.272 +05:30 [INF] Hosting environment: Development
+2024-05-08 14:24:47.272 +05:30 [INF] Content root path: D:\SKV\Capstone\Gitlab Capstone LXP\LXP-Backend\LXP.Api
+2024-05-08 14:24:55.123 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-08 14:24:55.764 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 649.0236ms
+2024-05-08 14:24:55.795 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-08 14:24:55.795 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-08 14:24:55.806 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 10.9918ms
+2024-05-08 14:24:55.864 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 69.0615ms
+2024-05-08 14:24:55.951 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-08 14:24:56.005 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.9627ms
+2024-05-08 14:25:01.996 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetMostEnrolledCourse - null null
+2024-05-08 14:25:02.010 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-08 14:25:02.017 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.DashboardController.GetMostEnrolledCourse (LXP.Api)'
+2024-05-08 14:25:02.040 +05:30 [INF] Route matched with {action = "GetMostEnrolledCourse", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetMostEnrolledCourse() on controller LXP.Api.Controllers.DashboardController (LXP.Api).
+2024-05-08 14:25:02.591 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-08 14:25:02.617 +05:30 [INF] Executed action LXP.Api.Controllers.DashboardController.GetMostEnrolledCourse (LXP.Api) in 569.2569ms
+2024-05-08 14:25:02.622 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.DashboardController.GetMostEnrolledCourse (LXP.Api)'
+2024-05-08 14:25:02.626 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetMostEnrolledCourse - 200 null application/json; charset=utf-8 630.2938ms
+2024-05-08 14:25:46.395 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-08 14:25:46.429 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-08 14:25:46.435 +05:30 [INF] Hosting environment: Development
+2024-05-08 14:25:46.439 +05:30 [INF] Content root path: D:\SKV\Capstone\Gitlab Capstone LXP\LXP-Backend\LXP.Api
+2024-05-08 14:25:53.304 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-08 14:25:53.892 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 594.9114ms
+2024-05-08 14:25:53.915 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-08 14:25:53.915 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-08 14:25:53.924 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 8.9053ms
+2024-05-08 14:25:53.966 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.8238ms
+2024-05-08 14:25:54.047 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-08 14:25:54.109 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.0048ms
+2024-05-08 14:26:02.392 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetMostEnrolledCourse - null null
+2024-05-08 14:26:02.410 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-08 14:26:02.415 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.DashboardController.GetMostEnrolledCourse (LXP.Api)'
+2024-05-08 14:26:02.430 +05:30 [INF] Route matched with {action = "GetMostEnrolledCourse", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetMostEnrolledCourse() on controller LXP.Api.Controllers.DashboardController (LXP.Api).
+2024-05-08 14:26:04.881 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `e`.`enrollment_id` AS `EnrollmentId`, `e`.`course_id` AS `CourseId`, `e`.`learner_id` AS `LearnerId`, `e`.`enrollment_date` AS `EnrollmentDate`
+FROM `enrollments` AS `e`
+2024-05-08 14:34:21.531 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-08 14:34:21.573 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-08 14:34:21.577 +05:30 [INF] Hosting environment: Development
+2024-05-08 14:34:21.583 +05:30 [INF] Content root path: D:\SKV\Capstone\Gitlab Capstone LXP\LXP-Backend\LXP.Api
+2024-05-08 14:34:27.967 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-08 14:34:28.597 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 633.625ms
+2024-05-08 14:34:28.619 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-08 14:34:28.619 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-08 14:34:28.630 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 11.0518ms
+2024-05-08 14:34:28.655 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.0334ms
+2024-05-08 14:34:28.755 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-08 14:34:28.818 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.9185ms
+2024-05-08 14:34:33.934 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetMostEnrolledCourse - null null
+2024-05-08 14:34:33.949 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-08 14:34:33.956 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.DashboardController.GetMostEnrolledCourse (LXP.Api)'
+2024-05-08 14:34:33.974 +05:30 [INF] Route matched with {action = "GetMostEnrolledCourse", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetMostEnrolledCourse() on controller LXP.Api.Controllers.DashboardController (LXP.Api).
+2024-05-08 14:34:36.569 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `e`.`enrollment_id` AS `EnrollmentId`, `e`.`course_id` AS `CourseId`, `e`.`learner_id` AS `LearnerId`, `e`.`enrollment_date` AS `EnrollmentDate`
+FROM `enrollments` AS `e`
+2024-05-08 14:37:47.881 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-08 14:37:47.915 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-08 14:37:47.919 +05:30 [INF] Hosting environment: Development
+2024-05-08 14:37:47.922 +05:30 [INF] Content root path: D:\SKV\Capstone\Gitlab Capstone LXP\LXP-Backend\LXP.Api
+2024-05-08 14:37:54.151 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-08 14:37:54.753 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 606.262ms
+2024-05-08 14:37:54.761 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-08 14:37:54.767 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-08 14:37:54.769 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 8.3171ms
+2024-05-08 14:37:54.810 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.9492ms
+2024-05-08 14:37:54.913 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-08 14:37:54.975 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.3237ms
+2024-05-08 14:37:58.979 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetMostEnrolledCourse - null null
+2024-05-08 14:37:59.001 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-08 14:37:59.009 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.DashboardController.GetMostEnrolledCourse (LXP.Api)'
+2024-05-08 14:37:59.038 +05:30 [INF] Route matched with {action = "GetMostEnrolledCourse", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetMostEnrolledCourse() on controller LXP.Api.Controllers.DashboardController (LXP.Api).
+2024-05-08 14:38:01.517 +05:30 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `e`.`enrollment_id` AS `EnrollmentId`, `e`.`course_id` AS `CourseId`, `e`.`learner_id` AS `LearnerId`, `e`.`enrollment_date` AS `EnrollmentDate`, `c`.`course_id`, `c`.`catagory_id`, `c`.`created_at`, `c`.`created_by`, `c`.`description`, `c`.`duration`, `c`.`is_active`, `c`.`is_available`, `c`.`level_id`, `c`.`modified_at`, `c`.`modified_by`, `c`.`thumbnail`, `c`.`title`
+FROM `enrollments` AS `e`
+INNER JOIN `course` AS `c` ON `e`.`course_id` = `c`.`course_id`
+2024-05-08 15:49:39.331 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-08 15:49:39.368 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-08 15:49:39.370 +05:30 [INF] Hosting environment: Development
+2024-05-08 15:49:39.371 +05:30 [INF] Content root path: D:\SKV\Capstone\Gitlab Capstone LXP\LXP-Backend\LXP.Api
+2024-05-08 15:49:46.669 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-08 15:49:47.180 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 515.8086ms
+2024-05-08 15:49:47.206 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-08 15:49:47.206 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-08 15:49:47.212 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 6.9476ms
+2024-05-08 15:49:47.283 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.5667ms
+2024-05-08 15:49:47.458 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-08 15:49:47.538 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.9415ms
+2024-05-08 15:50:23.044 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-08 15:50:23.196 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-08 15:50:23.199 +05:30 [INF] Hosting environment: Development
+2024-05-08 15:50:23.201 +05:30 [INF] Content root path: D:\SKV\Capstone\Gitlab Capstone LXP\LXP-Backend\LXP.Api
+2024-05-08 15:50:29.153 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-08 15:50:30.256 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1113.5824ms
+2024-05-08 15:50:30.282 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-08 15:50:30.282 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-08 15:50:30.290 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 8.7332ms
+2024-05-08 15:50:30.371 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 89.4895ms
+2024-05-08 15:50:30.510 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-08 15:50:30.655 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 144.6818ms
+2024-05-08 15:50:38.775 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetCourseCreated - null null
+2024-05-08 15:50:38.805 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-08 15:50:38.818 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.DashboardController.GetCourseCreated (LXP.Api)'
+2024-05-08 15:50:38.875 +05:30 [INF] Route matched with {action = "GetCourseCreated", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetCourseCreated() on controller LXP.Api.Controllers.DashboardController (LXP.Api).
+2024-05-08 15:50:45.243 +05:30 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`course_id` AS `CourseId`, `c`.`title` AS `Title`, `c`.`created_at` AS `CreatedAt`
+FROM `course` AS `c`
+2024-05-08 15:50:45.513 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-08 15:50:45.577 +05:30 [INF] Executed action LXP.Api.Controllers.DashboardController.GetCourseCreated (LXP.Api) in 6670.6925ms
+2024-05-08 15:50:45.582 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.DashboardController.GetCourseCreated (LXP.Api)'
+2024-05-08 15:50:45.598 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetCourseCreated - 200 null application/json; charset=utf-8 6813.8345ms
+2024-05-08 15:58:27.709 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-08 15:58:27.865 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-08 15:58:27.870 +05:30 [INF] Hosting environment: Development
+2024-05-08 15:58:27.873 +05:30 [INF] Content root path: D:\SKV\Capstone\Gitlab Capstone LXP\LXP-Backend\LXP.Api
+2024-05-08 15:58:33.842 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-08 15:58:34.790 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 959.4193ms
+2024-05-08 15:58:34.813 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-08 15:58:34.852 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-08 15:58:34.881 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 29.1396ms
+2024-05-08 15:58:34.966 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 152.6235ms
+2024-05-08 15:58:35.095 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-08 15:58:35.211 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.624ms
+2024-05-08 15:58:39.071 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetTotalLearners - null null
+2024-05-08 15:58:39.104 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-08 15:58:39.118 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.DashboardController.GetTotalLearners (LXP.Api)'
+2024-05-08 15:58:39.178 +05:30 [INF] Route matched with {action = "GetTotalLearners", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetTotalLearners() on controller LXP.Api.Controllers.DashboardController (LXP.Api).
+2024-05-08 15:58:45.604 +05:30 [INF] Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `l`.`learner_id` AS `LearnerId`, `l`.`email` AS `Email`, `l`.`role` AS `Role`
+FROM `learners` AS `l`
+WHERE `l`.`role` <> 'Admin'
+2024-05-08 15:58:45.854 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-08 15:58:45.907 +05:30 [INF] Executed action LXP.Api.Controllers.DashboardController.GetTotalLearners (LXP.Api) in 6712.394ms
+2024-05-08 15:58:45.912 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.DashboardController.GetTotalLearners (LXP.Api)'
+2024-05-08 15:58:45.942 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetTotalLearners - 200 null application/json; charset=utf-8 6872.1391ms
+2024-05-08 15:58:52.388 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetTotalCourses - null null
+2024-05-08 15:58:52.402 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.DashboardController.GetTotalCourses (LXP.Api)'
+2024-05-08 15:58:52.413 +05:30 [INF] Route matched with {action = "GetTotalCourses", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetTotalCourses() on controller LXP.Api.Controllers.DashboardController (LXP.Api).
+2024-05-08 15:58:52.533 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`course_id` AS `CourseId`, `c`.`title` AS `Title`
+FROM `course` AS `c`
+2024-05-08 15:58:52.543 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-08 15:58:52.546 +05:30 [INF] Executed action LXP.Api.Controllers.DashboardController.GetTotalCourses (LXP.Api) in 126.2805ms
+2024-05-08 15:58:52.550 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.DashboardController.GetTotalCourses (LXP.Api)'
+2024-05-08 15:58:52.554 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetTotalCourses - 200 null application/json; charset=utf-8 165.5417ms
+2024-05-08 15:58:57.159 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetTotalEnrollments - null null
+2024-05-08 15:58:57.169 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.DashboardController.GetTotalEnrollments (LXP.Api)'
+2024-05-08 15:58:57.176 +05:30 [INF] Route matched with {action = "GetTotalEnrollments", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetTotalEnrollments() on controller LXP.Api.Controllers.DashboardController (LXP.Api).
+2024-05-08 15:58:57.434 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `e`.`enrollment_id` AS `EnrollmentId`, `e`.`course_id` AS `CourseId`, `e`.`learner_id` AS `LearnerId`, `e`.`enrollment_date` AS `EnrollmentDate`
+FROM `enrollments` AS `e`
+2024-05-08 15:58:57.448 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-08 15:58:57.452 +05:30 [INF] Executed action LXP.Api.Controllers.DashboardController.GetTotalEnrollments (LXP.Api) in 262.4941ms
+2024-05-08 15:58:57.456 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.DashboardController.GetTotalEnrollments (LXP.Api)'
+2024-05-08 15:58:57.459 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetTotalEnrollments - 200 null application/json; charset=utf-8 300.0515ms
+2024-05-08 15:59:04.634 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetEnrollmentMonth - null null
+2024-05-08 15:59:04.640 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.DashboardController.GetEnrollmentMonth (LXP.Api)'
+2024-05-08 15:59:04.649 +05:30 [INF] Route matched with {action = "GetEnrollmentMonth", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetEnrollmentMonth() on controller LXP.Api.Controllers.DashboardController (LXP.Api).
+2024-05-08 15:59:04.683 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `e`.`enrollment_id` AS `EnrollmentId`, `e`.`course_id` AS `CourseId`, `e`.`learner_id` AS `LearnerId`, `e`.`enrollment_date` AS `EnrollmentDate`
+FROM `enrollments` AS `e`
+2024-05-08 15:59:04.707 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-08 15:59:04.741 +05:30 [INF] Executed action LXP.Api.Controllers.DashboardController.GetEnrollmentMonth (LXP.Api) in 82.9491ms
+2024-05-08 15:59:04.757 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.DashboardController.GetEnrollmentMonth (LXP.Api)'
+2024-05-08 15:59:04.762 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetEnrollmentMonth - 200 null application/json; charset=utf-8 127.8302ms
+2024-05-08 15:59:09.605 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetCourseCreated - null null
+2024-05-08 15:59:09.617 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.DashboardController.GetCourseCreated (LXP.Api)'
+2024-05-08 15:59:09.625 +05:30 [INF] Route matched with {action = "GetCourseCreated", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetCourseCreated() on controller LXP.Api.Controllers.DashboardController (LXP.Api).
+2024-05-08 15:59:09.655 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `c`.`course_id` AS `CourseId`, `c`.`title` AS `Title`, `c`.`created_at` AS `CreatedAt`
+FROM `course` AS `c`
+2024-05-08 15:59:09.673 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-08 15:59:09.682 +05:30 [INF] Executed action LXP.Api.Controllers.DashboardController.GetCourseCreated (LXP.Api) in 45.237ms
+2024-05-08 15:59:09.686 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.DashboardController.GetCourseCreated (LXP.Api)'
+2024-05-08 15:59:09.690 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetCourseCreated - 200 null application/json; charset=utf-8 85.0163ms
+2024-05-08 16:11:22.435 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-08 16:11:22.491 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-08 16:11:22.493 +05:30 [INF] Hosting environment: Development
+2024-05-08 16:11:22.494 +05:30 [INF] Content root path: D:\SKV\Capstone\Backup\LXP.Api
+2024-05-08 16:11:27.824 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-08 16:11:28.711 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 901.3784ms
+2024-05-08 16:11:28.762 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-08 16:11:28.763 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-08 16:11:28.789 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 26.7409ms
+2024-05-08 16:11:28.880 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 117.8359ms
+2024-05-08 16:11:29.084 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-08 16:11:29.233 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 148.6909ms
+2024-05-08 16:59:19.984 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-08 16:59:20.024 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-08 16:59:20.026 +05:30 [INF] Hosting environment: Development
+2024-05-08 16:59:20.027 +05:30 [INF] Content root path: D:\SKV\Capstone\Backup\LXP.Api
+2024-05-08 16:59:25.704 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-08 16:59:26.495 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 802.2689ms
+2024-05-08 16:59:26.515 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-08 16:59:26.515 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-08 16:59:26.525 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 9.8023ms
+2024-05-08 16:59:26.618 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 102.5957ms
+2024-05-08 16:59:26.775 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-08 16:59:26.894 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 119.8816ms
+2024-05-08 16:59:34.837 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetEnrollmentMonth - null null
+2024-05-08 16:59:34.884 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-08 16:59:34.901 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.DashboardController.GetEnrollmentMonth (LXP.Api)'
+2024-05-08 16:59:34.957 +05:30 [INF] Route matched with {action = "GetEnrollmentMonth", controller = "Dashboard"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult GetEnrollmentMonth() on controller LXP.Api.Controllers.DashboardController (LXP.Api).
+2024-05-08 16:59:39.967 +05:30 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT `e`.`enrollment_id` AS `EnrollmentId`, `e`.`course_id` AS `CourseId`, `e`.`learner_id` AS `LearnerId`, `e`.`enrollment_date` AS `EnrollmentDate`
+FROM `enrollments` AS `e`
+2024-05-08 16:59:40.270 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-05-08 16:59:40.328 +05:30 [INF] Executed action LXP.Api.Controllers.DashboardController.GetEnrollmentMonth (LXP.Api) in 5348.3928ms
+2024-05-08 16:59:40.333 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.DashboardController.GetEnrollmentMonth (LXP.Api)'
+2024-05-08 16:59:40.361 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Dashboard/GetEnrollmentMonth - 200 null application/json; charset=utf-8 5525.0709ms
+2024-05-08 16:59:52.714 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-08 16:59:52.737 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 23.1064ms
+2024-05-08 16:59:52.759 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-08 16:59:52.760 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-08 16:59:52.780 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 20.0664ms
+2024-05-08 16:59:52.785 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.7915ms
+2024-05-08 16:59:52.838 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-08 16:59:52.848 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.331ms

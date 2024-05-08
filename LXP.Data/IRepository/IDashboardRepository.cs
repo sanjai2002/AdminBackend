@@ -15,5 +15,6 @@ namespace LXP.Data.IRepository
         IEnumerable<DashboardEnrollmentViewModel> GetTotalEnrollments();
         IEnumerable<DashboardEnrollmentViewModel> GetMonthWiseEnrollments();
         IEnumerable<DashboardCourseViewModel> GetCourseCreated();
+        IEnumerable<DashboardEnrollmentViewModel> GetMoreEnrolledCourse();
     }
 }

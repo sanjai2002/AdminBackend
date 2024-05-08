@@ -9,5 +9,6 @@ namespace LXP.Core.IServices
         IEnumerable<DashboardEnrollmentViewModel> GetDashboardEnrollmentList();
         public Array GetMonthEnrollmentList();
         public Array GetCourseCreatedList();
+        public string GetMostEnrolledCourse();
     }
 }
