@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "By4x8QNIPN8ns11cFgoxJ/26gqtQbomKrEUnLc2GUdtcXQUtP1q33VfAKJQODhfwQjdb/jr/FVm5yNMCbShcFg==",
+  "dgSpecHash": "vGbE3t0tkcOulcKERBIZ2HXPZqScBlxQWb+pOdFi9EAlupIXktsjb7noN0zKaSXPKWogtwSh6IPbHbdNoHeObg==",
   "success": true,
-  "projectFilePath": "D:\\SKV\\Capstone\\Backup\\LXP.Api.Tests\\LXP.Api.Tests.csproj",
+  "projectFilePath": "D:\\SKV\\Capstone\\Adminbackend\\LXP.Api.Tests\\LXP.Api.Tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9T6gIcxmMMQYWLqaEPfVfiFI6tEwMdxJGkvJxjaESzjRnGZo/g0yOUDW1wzLNpMTT/P6OYkD0SSNgg6h6hyUoQ==",
+  "dgSpecHash": "8yJ7tLiiqjUdrQ+Uc2sQUKxDJ+uZyg1IAk8txjtgoq7szZuGS9zNQeNUkYwj9YPzgUuZ1tUaxXK07fqokEmMTQ==",
   "success": true,
-  "projectFilePath": "D:\\SKV\\Capstone\\Backup\\LXP.Common.Tests\\LXP.Common.Tests.csproj",
+  "projectFilePath": "D:\\SKV\\Capstone\\Adminbackend\\LXP.Common.Tests\\LXP.Common.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

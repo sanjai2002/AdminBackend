@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rcekjmq6Uf1GjoVfMXqi2M5TmeNcI9MFJh7oAf33FRluiq1+B1s+63xecBNMYrM50tNEPCRwlmTmxpdpxDH21A==",
+  "dgSpecHash": "+aob2fdfk3qtKmdRrY/4AKUT5LwSSTzT2AaY4EDGzJ+DrRxpqD5qsX8R5c2Wmr6iO6+9M95E1DDX2m3wxA0p7w==",
   "success": true,
-  "projectFilePath": "D:\\SKV\\Capstone\\Backup\\LXP.Data\\LXP.Data.csproj",
+  "projectFilePath": "D:\\SKV\\Capstone\\Adminbackend\\LXP.Data\\LXP.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

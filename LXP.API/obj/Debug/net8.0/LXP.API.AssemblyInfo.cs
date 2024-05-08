@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LXP.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a947d4d2b2d817db90e94758843fdf62fb8da72f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8ef3d4de47a8d1dd227281257f97791df592698")]
 [assembly: System.Reflection.AssemblyProductAttribute("LXP.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LXP.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
