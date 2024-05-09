@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SKV\\Capstone\\Backup\\LXP.Core\\LXP.Core.csproj": {}
+    "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Core\\LXP.Core.csproj": {}
   },
   "projects": {
-    "D:\\SKV\\Capstone\\Backup\\LXP.Common\\LXP.Common.csproj": {
+    "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Common\\LXP.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SKV\\Capstone\\Backup\\LXP.Common\\LXP.Common.csproj",
+        "projectUniqueName": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Common\\LXP.Common.csproj",
         "projectName": "LXP.Common",
-        "projectPath": "D:\\SKV\\Capstone\\Backup\\LXP.Common\\LXP.Common.csproj",
-        "packagesPath": "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\",
-        "outputPath": "D:\\SKV\\Capstone\\Backup\\LXP.Common\\obj\\",
+        "projectPath": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Common\\LXP.Common.csproj",
+        "packagesPath": "C:\\Users\\kavin.senthil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kathirvel.selvam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kavin.senthil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,12 +44,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Relational": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -69,20 +64,20 @@
         }
       }
     },
-    "D:\\SKV\\Capstone\\Backup\\LXP.Core\\LXP.Core.csproj": {
+    "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Core\\LXP.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SKV\\Capstone\\Backup\\LXP.Core\\LXP.Core.csproj",
+        "projectUniqueName": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Core\\LXP.Core.csproj",
         "projectName": "LXP.Core",
-        "projectPath": "D:\\SKV\\Capstone\\Backup\\LXP.Core\\LXP.Core.csproj",
-        "packagesPath": "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\",
-        "outputPath": "D:\\SKV\\Capstone\\Backup\\LXP.Core\\obj\\",
+        "projectPath": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Core\\LXP.Core.csproj",
+        "packagesPath": "C:\\Users\\kavin.senthil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kathirvel.selvam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kavin.senthil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,14 +86,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SKV\\Capstone\\Backup\\LXP.Data\\LXP.Data.csproj": {
-                "projectPath": "D:\\SKV\\Capstone\\Backup\\LXP.Data\\LXP.Data.csproj"
+              "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Data\\LXP.Data.csproj": {
+                "projectPath": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Data\\LXP.Data.csproj"
               }
             }
           }
@@ -132,20 +128,20 @@
         }
       }
     },
-    "D:\\SKV\\Capstone\\Backup\\LXP.Data\\LXP.Data.csproj": {
+    "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Data\\LXP.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SKV\\Capstone\\Backup\\LXP.Data\\LXP.Data.csproj",
+        "projectUniqueName": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Data\\LXP.Data.csproj",
         "projectName": "LXP.Data",
-        "projectPath": "D:\\SKV\\Capstone\\Backup\\LXP.Data\\LXP.Data.csproj",
-        "packagesPath": "C:\\Users\\kathirvel.selvam\\.nuget\\packages\\",
-        "outputPath": "D:\\SKV\\Capstone\\Backup\\LXP.Data\\obj\\",
+        "projectPath": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Data\\LXP.Data.csproj",
+        "packagesPath": "C:\\Users\\kavin.senthil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\kathirvel.selvam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kavin.senthil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -154,14 +150,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SKV\\Capstone\\Backup\\LXP.Common\\LXP.Common.csproj": {
-                "projectPath": "D:\\SKV\\Capstone\\Backup\\LXP.Common\\LXP.Common.csproj"
+              "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Common\\LXP.Common.csproj": {
+                "projectPath": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Common\\LXP.Common.csproj"
               }
             }
           }
@@ -176,11 +173,19 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "EntityFramework": {
               "target": "Package",
               "version": "[6.4.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[8.0.2, )"
             },
@@ -197,6 +202,10 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             }
           },
           "imports": [

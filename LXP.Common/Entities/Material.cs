@@ -25,9 +25,9 @@ public partial class Material
 
     public DateTime CreatedAt { get; set; }
 
-    public string? ModifiedBy { get; set; }
+    public string ModifiedBy { get; set; } = null!;
 
-    public DateTime? ModifiedAt { get; set; }
+    public DateTime ModifiedAt { get; set; }
 
     public virtual ICollection<LearnerProgress> LearnerProgresses { get; set; } = new List<LearnerProgress>();
 

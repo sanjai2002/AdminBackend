@@ -440,7 +440,9 @@ public partial class LXPDbContext : DbContext
 
             entity.ToTable("learner_profiles");
 
-            entity.HasIndex(e => e.LearnerId, "IX_learner_profiles_learner_id").IsUnique();
+            entity.HasIndex(e => e.LearnerId, "IX_learner_profiles_learner_id");
+
+            entity.HasIndex(e => e.ProfileId, "profile_id_UNIQUE").IsUnique();
 
             entity.Property(e => e.ProfileId)
                 .HasColumnName("profile_id")
@@ -476,7 +478,7 @@ public partial class LXPDbContext : DbContext
                 .HasMaxLength(50)
                 .HasColumnName("stream");
 
-            entity.HasOne(d => d.Learner).WithOne(p => p.LearnerProfile).HasForeignKey<LearnerProfile>(d => d.LearnerId);
+            entity.HasOne(d => d.Learner).WithMany(p => p.LearnerProfiles).HasForeignKey(d => d.LearnerId);
         });
 
         modelBuilder.Entity<LearnerProgress>(entity =>
