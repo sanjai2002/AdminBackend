@@ -14,7 +14,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 builder.Services.AddScoped<IForgetRepository, ForgetRepository>();
-builder.Services.AddScoped<IForgetService,ForgetService>();
+builder.Services.AddScoped<IForgetService, ForgetService>();
+builder.Services.AddScoped<IDashboardRepository, DashboardRepository>();
+
+builder.Services.AddScoped<IDashboardService, DashboardService>();
+
 builder.Services.AddScoped<IUpdatePasswordService, UpdatePasswordService>();
 builder.Services.AddScoped<IUpdatePasswordRepository, UpdatePasswordRepository>();
 
