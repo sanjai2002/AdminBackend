@@ -491,3 +491,15 @@ System.AggregateException: One or more errors occurred. (The provider for the so
 2024-05-09 09:51:15.384 +05:30 [INF] Executed action LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api) in 36.0507ms
 2024-05-09 09:51:15.389 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api)'
 2024-05-09 09:51:15.395 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Login - 200 null application/json; charset=utf-8 59.6753ms
+2024-05-09 11:52:27.473 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 11:52:27.509 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 11:52:27.510 +05:30 [INF] Hosting environment: Development
+2024-05-09 11:52:27.511 +05:30 [INF] Content root path: D:\SKV\Capstone\Adminbackend\LXP.Api
+2024-05-09 11:52:32.998 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 11:52:33.468 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 474.7282ms
+2024-05-09 11:52:33.485 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 11:52:33.485 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 11:52:33.494 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 9.3124ms
+2024-05-09 11:52:33.528 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.1255ms
+2024-05-09 11:52:33.625 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 11:52:33.711 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.4317ms

@@ -7,6 +7,19 @@ using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
+#region CORS setting for API
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "_myAllowSpecificOrigins",
+    policy =>
+    {
+        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod().AllowAnyMethod();
+    }
+
+    );
+});
+#endregion
+
 // Add services to the container.
 
 
