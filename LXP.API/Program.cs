@@ -3,6 +3,7 @@ using LXP.Core.IServices;
 using LXP.Core.Services;
 using LXP.Data.IRepository;
 using LXP.Data.Repository;
+using Microsoft.AspNetCore.Builder;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,7 +30,8 @@ builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 builder.Services.AddScoped<IForgetRepository, ForgetRepository>();
 builder.Services.AddScoped<IForgetService, ForgetService>();
 builder.Services.AddScoped<IDashboardRepository, DashboardRepository>();
-
+builder.Services.AddScoped<IService, Services>();
+builder.Services.AddScoped<IRepository, Repository>();
 builder.Services.AddScoped<IDashboardService, DashboardService>();
 
 builder.Services.AddScoped<IUpdatePasswordService, UpdatePasswordService>();
@@ -62,10 +64,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseCors("_myAllowSpecificOrigins");
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();
