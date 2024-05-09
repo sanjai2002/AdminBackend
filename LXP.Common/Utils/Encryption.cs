@@ -20,9 +20,9 @@ namespace LXP.Common.Utils
 
                 // now convert byte array to a string   
                 StringBuilder stringbuilder = new StringBuilder();
-                for (int i = 0; i < bytes.Length; i++)
+                foreach (byte b in bytes) 
                 {
-                    stringbuilder.Append(bytes[i].ToString("x2"));
+                    stringbuilder.Append(b.ToString("x2"));
                 }
                 return stringbuilder.ToString();
             }

@@ -1,0 +1,415 @@
+2024-05-09 00:02:01.071 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 00:02:01.160 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 00:02:01.165 +05:30 [INF] Hosting environment: Development
+2024-05-09 00:02:01.169 +05:30 [INF] Content root path: C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Api
+2024-05-09 00:02:06.610 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 00:02:08.226 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1625.0745ms
+2024-05-09 00:02:08.257 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 00:02:08.283 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 00:02:08.308 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 25.2484ms
+2024-05-09 00:02:08.344 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 86.5549ms
+2024-05-09 00:02:08.464 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 00:02:08.601 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 137.7435ms
+2024-05-09 00:02:48.135 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5199/api/UpdatePassword - application/json 105
+2024-05-09 00:02:48.162 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 00:02:48.169 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api)'
+2024-05-09 00:02:48.204 +05:30 [INF] Route matched with {action = "LeanerUpdatePassword", controller = "UpdatePassword"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LeanerUpdatePassword(LXP.Common.ViewModels.UpdatePassword) on controller LXP.Api.Controllers.UpdatePasswordController (LXP.Api).
+2024-05-09 00:05:06.881 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 00:05:06.957 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 00:05:06.959 +05:30 [INF] Hosting environment: Development
+2024-05-09 00:05:06.961 +05:30 [INF] Content root path: C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Api
+2024-05-09 00:05:08.995 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 00:05:09.881 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 893.554ms
+2024-05-09 00:05:09.891 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 00:05:09.902 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 11.5544ms
+2024-05-09 00:05:09.914 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 00:05:10.007 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 92.8651ms
+2024-05-09 00:05:10.123 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 00:05:10.324 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 200.7441ms
+2024-05-09 00:06:26.106 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5199/api/UpdatePassword - application/json 105
+2024-05-09 00:06:26.125 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 00:06:26.132 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api)'
+2024-05-09 00:06:26.169 +05:30 [INF] Route matched with {action = "LeanerUpdatePassword", controller = "UpdatePassword"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LeanerUpdatePassword(LXP.Common.ViewModels.UpdatePassword) on controller LXP.Api.Controllers.UpdatePasswordController (LXP.Api).
+2024-05-09 00:06:29.992 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[LXP.Common.ViewModels.ResultUpdatePassword, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-09 00:06:30.029 +05:30 [INF] Executed action LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api) in 3851.1407ms
+2024-05-09 00:06:30.032 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api)'
+2024-05-09 00:06:30.034 +05:30 [INF] Request finished HTTP/1.1 PUT http://localhost:5199/api/UpdatePassword - 200 null application/json; charset=utf-8 3927.6716ms
+2024-05-09 00:07:34.458 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Login - application/json 70
+2024-05-09 00:07:34.473 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api)'
+2024-05-09 00:07:34.485 +05:30 [INF] Route matched with {action = "LoginLearner", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] LoginLearner(LXP.Common.ViewModels.LoginModel) on controller LXP.Api.Controllers.LoginController (LXP.Api).
+2024-05-09 00:07:34.820 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.LoginRole'.
+2024-05-09 00:07:34.825 +05:30 [INF] Executed action LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api) in 335.9632ms
+2024-05-09 00:07:34.829 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api)'
+2024-05-09 00:07:34.833 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Login - 200 null application/json; charset=utf-8 375.359ms
+2024-05-09 00:08:01.605 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - application/json 43
+2024-05-09 00:08:01.610 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:08:01.620 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "ForgetPassword"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ForgetPassword(LXP.Common.ViewModels.RandomPasswordEmail) on controller LXP.Api.Controllers.ForgetPasswordController (LXP.Api).
+2024-05-09 00:08:05.951 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 00:08:05.958 +05:30 [INF] Executed action LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api) in 4333.3907ms
+2024-05-09 00:08:05.961 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:08:05.963 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - 200 null application/json; charset=utf-8 4358.3929ms
+2024-05-09 00:09:50.990 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5199/api/UpdatePassword - application/json 102
+2024-05-09 00:09:51.003 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api)'
+2024-05-09 00:09:51.006 +05:30 [INF] Route matched with {action = "LeanerUpdatePassword", controller = "UpdatePassword"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LeanerUpdatePassword(LXP.Common.ViewModels.UpdatePassword) on controller LXP.Api.Controllers.UpdatePasswordController (LXP.Api).
+2024-05-09 00:10:51.113 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[LXP.Common.ViewModels.ResultUpdatePassword, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-09 00:10:51.128 +05:30 [INF] Executed action LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api) in 60118.4456ms
+2024-05-09 00:10:51.131 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api)'
+2024-05-09 00:10:51.136 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at LXP.Core.Services.UpdatePasswordService.UpdatePassword(UpdatePassword updatePassword) in C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Core\Services\UpdatePasswordService.cs:line 38
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-09 00:10:51.225 +05:30 [INF] Request finished HTTP/1.1 PUT http://localhost:5199/api/UpdatePassword - 500 null text/plain; charset=utf-8 60236.0209ms
+2024-05-09 00:11:10.631 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5199/api/UpdatePassword - application/json 105
+2024-05-09 00:11:10.645 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api)'
+2024-05-09 00:11:10.647 +05:30 [INF] Route matched with {action = "LeanerUpdatePassword", controller = "UpdatePassword"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LeanerUpdatePassword(LXP.Common.ViewModels.UpdatePassword) on controller LXP.Api.Controllers.UpdatePasswordController (LXP.Api).
+2024-05-09 00:11:10.666 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[LXP.Common.ViewModels.ResultUpdatePassword, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-09 00:11:10.676 +05:30 [INF] Executed action LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api) in 25.0227ms
+2024-05-09 00:11:10.687 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api)'
+2024-05-09 00:11:10.689 +05:30 [INF] Request finished HTTP/1.1 PUT http://localhost:5199/api/UpdatePassword - 200 null application/json; charset=utf-8 58.5513ms
+2024-05-09 00:36:10.302 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 00:36:10.380 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 00:36:10.382 +05:30 [INF] Hosting environment: Development
+2024-05-09 00:36:10.384 +05:30 [INF] Content root path: C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Api
+2024-05-09 00:36:13.093 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 00:36:14.285 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1201.0603ms
+2024-05-09 00:36:14.294 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 00:36:14.302 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 8.9454ms
+2024-05-09 00:36:14.339 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 00:36:14.437 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 98.4891ms
+2024-05-09 00:36:14.594 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 00:36:14.741 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 147.2128ms
+2024-05-09 00:36:49.790 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5199/api/UpdatePassword - application/json 105
+2024-05-09 00:36:49.806 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 00:36:49.814 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api)'
+2024-05-09 00:36:49.849 +05:30 [INF] Route matched with {action = "LeanerUpdatePassword", controller = "UpdatePassword"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LeanerUpdatePassword(LXP.Common.ViewModels.UpdatePassword) on controller LXP.Api.Controllers.UpdatePasswordController (LXP.Api).
+2024-05-09 00:37:09.767 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[LXP.Common.ViewModels.ResultUpdatePassword, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-09 00:37:09.806 +05:30 [INF] Executed action LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api) in 19948.3884ms
+2024-05-09 00:37:09.810 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api)'
+2024-05-09 00:37:09.814 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (Object reference not set to an instance of an object.)
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at LXP.Core.Services.UpdatePasswordService.UpdatePassword(UpdatePassword updatePassword) in C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Core\Services\UpdatePasswordService.cs:line 38
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-09 00:37:09.900 +05:30 [INF] Request finished HTTP/1.1 PUT http://localhost:5199/api/UpdatePassword - 500 null text/plain; charset=utf-8 20110.3854ms
+2024-05-09 00:37:21.209 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5199/api/UpdatePassword - application/json 105
+2024-05-09 00:37:21.254 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api)'
+2024-05-09 00:37:21.258 +05:30 [INF] Route matched with {action = "LeanerUpdatePassword", controller = "UpdatePassword"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LeanerUpdatePassword(LXP.Common.ViewModels.UpdatePassword) on controller LXP.Api.Controllers.UpdatePasswordController (LXP.Api).
+2024-05-09 00:37:21.651 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[LXP.Common.ViewModels.ResultUpdatePassword, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-09 00:37:21.660 +05:30 [INF] Executed action LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api) in 397.7826ms
+2024-05-09 00:37:21.663 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api)'
+2024-05-09 00:37:21.665 +05:30 [INF] Request finished HTTP/1.1 PUT http://localhost:5199/api/UpdatePassword - 200 null application/json; charset=utf-8 455.6124ms
+2024-05-09 00:38:16.680 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Login - application/json 69
+2024-05-09 00:38:16.693 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api)'
+2024-05-09 00:38:16.704 +05:30 [INF] Route matched with {action = "LoginLearner", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] LoginLearner(LXP.Common.ViewModels.LoginModel) on controller LXP.Api.Controllers.LoginController (LXP.Api).
+2024-05-09 00:38:17.023 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.LoginRole'.
+2024-05-09 00:38:17.028 +05:30 [INF] Executed action LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api) in 320.2433ms
+2024-05-09 00:38:17.032 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api)'
+2024-05-09 00:38:17.036 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Login - 200 null application/json; charset=utf-8 358.033ms
+2024-05-09 00:38:28.541 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Login - application/json 70
+2024-05-09 00:38:28.546 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api)'
+2024-05-09 00:38:28.547 +05:30 [INF] Route matched with {action = "LoginLearner", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] LoginLearner(LXP.Common.ViewModels.LoginModel) on controller LXP.Api.Controllers.LoginController (LXP.Api).
+2024-05-09 00:38:28.593 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.LoginRole'.
+2024-05-09 00:38:28.596 +05:30 [INF] Executed action LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api) in 44.596ms
+2024-05-09 00:38:28.599 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api)'
+2024-05-09 00:38:28.601 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Login - 200 null application/json; charset=utf-8 60.0674ms
+2024-05-09 00:38:57.828 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - application/json 43
+2024-05-09 00:38:57.840 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:38:57.849 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "ForgetPassword"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ForgetPassword(LXP.Common.ViewModels.RandomPasswordEmail) on controller LXP.Api.Controllers.ForgetPasswordController (LXP.Api).
+2024-05-09 00:38:58.132 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 00:38:58.139 +05:30 [INF] Executed action LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api) in 286.0442ms
+2024-05-09 00:38:58.142 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:38:58.145 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.)
+ ---> System.InvalidOperationException: The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.AnyAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at System.Data.Entity.QueryableExtensions.AnyAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   at LXP.Data.Repository.ForgetRepository.AnyUserByEmail(String loginmodel) in C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Data\Repository\ForgetRepository.cs:line 26
+   at LXP.Core.Services.ForgetService.ForgetPassword(String Email) in C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Core\Services\ForgetService.cs:line 34
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-09 00:38:58.180 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - 500 null text/plain; charset=utf-8 351.7997ms
+2024-05-09 00:43:42.697 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 00:43:42.811 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 00:43:42.813 +05:30 [INF] Hosting environment: Development
+2024-05-09 00:43:42.815 +05:30 [INF] Content root path: C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Api
+2024-05-09 00:43:45.383 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 00:43:46.755 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1379.494ms
+2024-05-09 00:43:46.787 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 00:43:46.801 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 13.6914ms
+2024-05-09 00:43:46.816 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 00:43:46.912 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.2671ms
+2024-05-09 00:43:47.044 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 00:43:47.186 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 141.9903ms
+2024-05-09 00:44:04.542 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - application/json 42
+2024-05-09 00:44:04.559 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 00:44:04.567 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:44:04.614 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "ForgetPassword"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ForgetPassword(LXP.Common.ViewModels.RandomPasswordEmail) on controller LXP.Api.Controllers.ForgetPasswordController (LXP.Api).
+2024-05-09 00:44:08.245 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 00:44:08.283 +05:30 [INF] Executed action LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api) in 3656.4477ms
+2024-05-09 00:44:08.287 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:44:08.289 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - 200 null application/json; charset=utf-8 3746.8529ms
+2024-05-09 00:44:17.398 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - application/json 43
+2024-05-09 00:44:17.406 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:44:17.408 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "ForgetPassword"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ForgetPassword(LXP.Common.ViewModels.RandomPasswordEmail) on controller LXP.Api.Controllers.ForgetPasswordController (LXP.Api).
+2024-05-09 00:44:21.841 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 00:44:21.845 +05:30 [INF] Executed action LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api) in 4432.313ms
+2024-05-09 00:44:21.848 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:44:21.850 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - 200 null application/json; charset=utf-8 4451.6448ms
+2024-05-09 00:49:39.658 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 00:49:39.736 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 00:49:39.738 +05:30 [INF] Hosting environment: Development
+2024-05-09 00:49:39.740 +05:30 [INF] Content root path: C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Api
+2024-05-09 00:49:42.202 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 00:49:43.323 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1130.0584ms
+2024-05-09 00:49:43.388 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 00:49:43.388 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 00:49:43.488 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 100.7603ms
+2024-05-09 00:49:43.567 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 179.5992ms
+2024-05-09 00:49:43.686 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 00:49:43.824 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 137.9357ms
+2024-05-09 00:49:59.881 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - application/json 43
+2024-05-09 00:49:59.898 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 00:49:59.904 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:49:59.947 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "ForgetPassword"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ForgetPassword(LXP.Common.ViewModels.RandomPasswordEmail) on controller LXP.Api.Controllers.ForgetPasswordController (LXP.Api).
+2024-05-09 00:50:03.918 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 00:50:03.956 +05:30 [INF] Executed action LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api) in 4000.383ms
+2024-05-09 00:50:03.961 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:50:03.965 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.)
+ ---> System.InvalidOperationException: The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at System.Data.Entity.QueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   at LXP.Data.Repository.ForgetRepository.GetLearnerByEmail(String Email) in C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Data\Repository\ForgetRepository.cs:line 34
+   at LXP.Data.Repository.ForgetRepository.UpdateLearnerPassword(String Email, String Password) in C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Data\Repository\ForgetRepository.cs:line 40
+   at LXP.Core.Services.ForgetService.ForgetPassword(String Email) in C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Core\Services\ForgetService.cs:line 43
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-09 00:50:04.056 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - 500 null text/plain; charset=utf-8 4175.257ms
+2024-05-09 00:53:01.620 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 00:53:01.693 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 00:53:01.696 +05:30 [INF] Hosting environment: Development
+2024-05-09 00:53:01.697 +05:30 [INF] Content root path: C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Api
+2024-05-09 00:53:05.056 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 00:53:06.285 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1239.3798ms
+2024-05-09 00:53:06.297 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 00:53:06.307 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 9.9341ms
+2024-05-09 00:53:06.320 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 00:53:06.394 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.1298ms
+2024-05-09 00:53:06.542 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 00:53:06.685 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 143.3547ms
+2024-05-09 00:53:24.981 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - application/json 43
+2024-05-09 00:53:24.998 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 00:53:25.006 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:53:25.056 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "ForgetPassword"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ForgetPassword(LXP.Common.ViewModels.RandomPasswordEmail) on controller LXP.Api.Controllers.ForgetPasswordController (LXP.Api).
+2024-05-09 00:53:32.637 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 00:53:32.678 +05:30 [INF] Executed action LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api) in 7612.6044ms
+2024-05-09 00:53:32.681 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:53:32.683 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - 200 null application/json; charset=utf-8 7702.1645ms
+2024-05-09 00:56:20.120 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 00:56:20.196 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 00:56:20.198 +05:30 [INF] Hosting environment: Development
+2024-05-09 00:56:20.200 +05:30 [INF] Content root path: C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Api
+2024-05-09 00:56:25.269 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 00:56:26.242 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 981.0871ms
+2024-05-09 00:56:26.252 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 00:56:26.263 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 10.4946ms
+2024-05-09 00:56:26.277 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 00:56:26.350 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.3424ms
+2024-05-09 00:56:26.487 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 00:56:26.629 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 141.2886ms
+2024-05-09 00:56:43.947 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - application/json 43
+2024-05-09 00:56:43.963 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 00:56:43.971 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:56:44.017 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "ForgetPassword"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ForgetPassword(LXP.Common.ViewModels.RandomPasswordEmail) on controller LXP.Api.Controllers.ForgetPasswordController (LXP.Api).
+2024-05-09 00:56:46.691 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 00:56:46.730 +05:30 [INF] Executed action LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api) in 2703.3108ms
+2024-05-09 00:56:46.733 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:56:46.738 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.)
+ ---> System.InvalidOperationException: The provider for the source IQueryable doesn't implement IDbAsyncQueryProvider. Only providers that implement IDbAsyncQueryProvider can be used for Entity Framework asynchronous operations. For more details see http://go.microsoft.com/fwlink/?LinkId=287068.
+   at System.Data.Entity.QueryableExtensions.AnyAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at System.Data.Entity.QueryableExtensions.AnyAsync[TSource](IQueryable`1 source, Expression`1 predicate)
+   at LXP.Data.Repository.ForgetRepository.AnyUserByEmail(String loginmodel) in C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Data\Repository\ForgetRepository.cs:line 26
+   at LXP.Core.Services.ForgetService.ForgetPassword(String Email) in C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Core\Services\ForgetService.cs:line 34
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at ResultGetter(Object)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-09 00:56:46.828 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - 500 null text/plain; charset=utf-8 2881.2363ms
+2024-05-09 00:57:15.478 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 00:57:15.568 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 00:57:15.570 +05:30 [INF] Hosting environment: Development
+2024-05-09 00:57:15.572 +05:30 [INF] Content root path: C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Api
+2024-05-09 00:57:17.996 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 00:57:19.549 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1573.0283ms
+2024-05-09 00:57:19.609 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 00:57:19.614 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 00:57:19.635 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 20.9709ms
+2024-05-09 00:57:19.693 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.425ms
+2024-05-09 00:57:19.861 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 00:57:20.028 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 166.6748ms
+2024-05-09 00:57:37.627 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - application/json 43
+2024-05-09 00:57:37.642 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 00:57:37.649 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:57:37.691 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "ForgetPassword"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ForgetPassword(LXP.Common.ViewModels.RandomPasswordEmail) on controller LXP.Api.Controllers.ForgetPasswordController (LXP.Api).
+2024-05-09 00:57:44.922 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-05-09 00:57:44.962 +05:30 [INF] Executed action LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api) in 7260.6753ms
+2024-05-09 00:57:44.964 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 00:57:44.966 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - 200 null application/json; charset=utf-8 7339.8245ms
+2024-05-09 01:04:39.946 +05:30 [INF] Now listening on: http://localhost:5199
+2024-05-09 01:04:40.031 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 01:04:40.034 +05:30 [INF] Hosting environment: Development
+2024-05-09 01:04:40.036 +05:30 [INF] Content root path: C:\Users\kavin.senthil\Desktop\Git_Team_LXP\LXP.Api
+2024-05-09 01:04:45.214 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-05-09 01:04:46.669 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 1465.8667ms
+2024-05-09 01:04:46.720 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-05-09 01:04:46.720 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-09 01:04:46.867 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 147.7365ms
+2024-05-09 01:04:46.914 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 194.4196ms
+2024-05-09 01:04:47.013 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-05-09 01:04:47.160 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 147.1535ms
+2024-05-09 01:05:03.176 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - application/json 43
+2024-05-09 01:05:03.192 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-05-09 01:05:03.199 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 01:05:03.243 +05:30 [INF] Route matched with {action = "ForgetPassword", controller = "ForgetPassword"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ForgetPassword(LXP.Common.ViewModels.RandomPasswordEmail) on controller LXP.Api.Controllers.ForgetPasswordController (LXP.Api).
+2024-05-09 01:05:11.594 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Boolean'.
+2024-05-09 01:05:11.609 +05:30 [INF] Executed action LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api) in 8356.2277ms
+2024-05-09 01:05:11.612 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ForgetPasswordController.ForgetPassword (LXP.Api)'
+2024-05-09 01:05:11.614 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/ForgetPassword - 200 null application/json; charset=utf-8 8438.2242ms
+2024-05-09 01:06:00.220 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Login - application/json 67
+2024-05-09 01:06:00.235 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api)'
+2024-05-09 01:06:00.245 +05:30 [INF] Route matched with {action = "LoginLearner", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] LoginLearner(LXP.Common.ViewModels.LoginModel) on controller LXP.Api.Controllers.LoginController (LXP.Api).
+2024-05-09 01:06:00.598 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.LoginRole'.
+2024-05-09 01:06:00.605 +05:30 [INF] Executed action LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api) in 354.3727ms
+2024-05-09 01:06:00.608 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api)'
+2024-05-09 01:06:00.614 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Login - 200 null application/json; charset=utf-8 393.3493ms
+2024-05-09 01:07:01.349 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5199/api/UpdatePassword - application/json 102
+2024-05-09 01:07:01.362 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api)'
+2024-05-09 01:07:01.367 +05:30 [INF] Route matched with {action = "LeanerUpdatePassword", controller = "UpdatePassword"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult LeanerUpdatePassword(LXP.Common.ViewModels.UpdatePassword) on controller LXP.Api.Controllers.UpdatePasswordController (LXP.Api).
+2024-05-09 01:07:01.427 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Threading.Tasks.Task`1[[LXP.Common.ViewModels.ResultUpdatePassword, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-09 01:07:01.459 +05:30 [INF] Executed action LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api) in 87.8904ms
+2024-05-09 01:07:01.462 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.UpdatePasswordController.LeanerUpdatePassword (LXP.Api)'
+2024-05-09 01:07:01.464 +05:30 [INF] Request finished HTTP/1.1 PUT http://localhost:5199/api/UpdatePassword - 200 null application/json; charset=utf-8 114.9276ms
+2024-05-09 01:07:51.512 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/Login - application/json 72
+2024-05-09 01:07:51.551 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api)'
+2024-05-09 01:07:51.553 +05:30 [INF] Route matched with {action = "LoginLearner", controller = "Login"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] LoginLearner(LXP.Common.ViewModels.LoginModel) on controller LXP.Api.Controllers.LoginController (LXP.Api).
+2024-05-09 01:07:51.604 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.LoginRole'.
+2024-05-09 01:07:51.607 +05:30 [INF] Executed action LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api) in 49.2155ms
+2024-05-09 01:07:51.609 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.LoginController.LoginLearner (LXP.Api)'
+2024-05-09 01:07:51.612 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/Login - 200 null application/json; charset=utf-8 102.4542ms

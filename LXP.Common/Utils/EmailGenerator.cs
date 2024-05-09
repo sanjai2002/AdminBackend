@@ -20,7 +20,7 @@ namespace LXP.Common.Utils
             message.From = new MailAddress(fromMail);
             message.To.Add(Email);
             message.Subject = $"Confidential! New Password for Your Accounts";
-            message.Body = $"Dear Mano \r\n\r\nThis is a notification from the management. Your new password for  accounts has been generated. Please take a moment to update your password.\r\n\r\nNew Password:{password}\r\n\r\nRemember to change your password promptly for security reasons.\r\n\r\nThank you, Management Team";
+            message.Body = $"Dear Learner \r\n\r\nThis is a notification from the management. Your new password for  accounts has been generated. Please take a moment to update your password.\r\n\r\nNew Password:{password}\r\n\r\nRemember to change your password promptly for security reasons.\r\n\r\nThank you, Management Team";
             SmtpClient smtpClient = new SmtpClient("smtp.gmail.com");
             smtpClient.Port = 587;
             smtpClient.UseDefaultCredentials = false;

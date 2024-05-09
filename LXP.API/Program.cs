@@ -11,8 +11,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 // Add services to the container.
-builder.Services.AddScoped<IService, Services>();
-builder.Services.AddScoped<IRepository, Repository>();
+builder.Services.AddScoped<ILoginService, LoginService>();
+builder.Services.AddScoped<ILoginRepository, LoginRepository>();
+builder.Services.AddScoped<IForgetRepository, ForgetRepository>();
+builder.Services.AddScoped<IForgetService,ForgetService>();
+builder.Services.AddScoped<IUpdatePasswordService, UpdatePasswordService>();
+builder.Services.AddScoped<IUpdatePasswordRepository, UpdatePasswordRepository>();
+
 builder.Services.AddSingleton<LXPDbContext>();
 
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Common\\LXP.Common.csproj": {}
+    "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP.Common\\LXP.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Common\\LXP.Common.csproj": {
+    "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP.Common\\LXP.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Common\\LXP.Common.csproj",
+        "projectUniqueName": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP.Common\\LXP.Common.csproj",
         "projectName": "LXP.Common",
-        "projectPath": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Common\\LXP.Common.csproj",
+        "projectPath": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP.Common\\LXP.Common.csproj",
         "packagesPath": "C:\\Users\\kavin.senthil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP-Backend\\LXP.Common\\obj\\",
+        "outputPath": "C:\\Users\\kavin.senthil\\Desktop\\Git_Team_LXP\\LXP.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

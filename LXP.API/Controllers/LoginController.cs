@@ -9,26 +9,26 @@ namespace LXP.Api.Controllers
     public class LoginController : ControllerBase
     {
 
-        private readonly IService _services;
+        private readonly ILoginService _services;
 
-        public LoginController (IService services)
+        public LoginController (ILoginService services)
         {
             _services = services;
         }
 
 
+        ///<summary>
+        ///Login for Leaners along with their Role (Admin and User)
+        ///</summary>
+
 
         [HttpPost]
         
-        public async Task<ActionResult> CheckLearner([FromBody]LoginModel loginmodel)
+        public async Task<ActionResult> LoginLearner([FromBody]LoginModel loginmodel)
         {
 
+            LoginRole data = await _services.LoginLearner(loginmodel);
 
-            // Since CheckLearner now returns LoginRole, we capture it in a variable of type LoginRole
-
-            LoginRole data = await _services.CheckLearner(loginmodel);
-
-            // If you want to return the whole LoginRole object
             return Ok(data);
 
         }

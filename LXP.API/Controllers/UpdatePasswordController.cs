@@ -10,27 +10,29 @@ namespace LXP.Api.Controllers
     public class UpdatePasswordController : ControllerBase
     {
 
-        private readonly IService _services;
+        private readonly IUpdatePasswordService _services;
 
-        public UpdatePasswordController(IService services)
+        public UpdatePasswordController(IUpdatePasswordService services)
         {
             _services = services;
         }
 
 
+        ///<summary>
+        ///Update Password once user use the Forgot Password operation
+        ///</summary>
 
 
         [HttpPut]
 
-
-        public async Task<ActionResult> LeanerUpdatePassword([FromBody] UpdatePassword updatepassword)
+        public ActionResult LeanerUpdatePassword([FromBody] UpdatePassword updatepassword)
         {
-            var result= await _services.UpdatePassword(updatepassword);
+            var result= _services.UpdatePassword(updatepassword);
 
             return Ok (result);
         }
 
-
     }
 }
+
 
